@@ -1,0 +1,10 @@
+#!/bin/bash
+red=`echo -en "\e[41m"`
+bold=`echo -en "\e[1m"`
+normal=`echo -en "\e[0m"`
+sudo apt install boxes 
+sudo apt install figlet 
+sudo apt install lolcat 
+chmod +x ScythiC
+echo " $red $bold Running main tool file... $normal"
+./ScythiC
